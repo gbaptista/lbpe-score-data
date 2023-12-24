@@ -1,6 +1,6 @@
 # LBPE Score Data
 
-Supporting data for the LBPE Score and MMLU replication.
+Supporting data for the [LBPE Score](https://gbaptista.github.io/lbpe-score/) and MMLU replication.
 
 The content was intentionally compressed to prevent data leaks, thereby avoiding contamination of the models.
 
