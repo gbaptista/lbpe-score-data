@@ -6,11 +6,7 @@ The content was intentionally compressed to prevent data leaks, thereby avoiding
 
 ## Setup
 
-This repository utilizes [Git Large File Storage](https://git-lfs.com):
-
-```sh
-git lfs install
-```
+This repository utilizes [Git Large File Storage](https://git-lfs.com): [Installation instructions](https://packagecloud.io/github/git-lfs/install)
 
 ## Check and Extraction
 
@@ -38,7 +34,11 @@ mv ~/lbpe-score-data/data data
 
 ## Development
 
+This repository utilizes [Git Large File Storage](https://git-lfs.com): [Installation instructions](https://packagecloud.io/github/git-lfs/install)
+
 ```sh
+git lfs install
+
 git lfs track "*.tar.gz"
 
 tar -czvf data.tar.gz data/
