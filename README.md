@@ -1,6 +1,6 @@
 # LBPE Score Data
 
-Supporting data for the [LBPE Score](https://github.com/gbaptista/lbpe-score) and MMLU replication.
+Supporting data for the [LBPE Score](https://github.com/gbaptista/lbpe-score), MMLU, and ENEM replication.
 
 The content was intentionally compressed to prevent data leaks, thereby avoiding contamination of the models.
 
@@ -40,6 +40,11 @@ This repository utilizes [Git Large File Storage](https://git-lfs.com): [Install
 git lfs install
 
 git lfs track "*.tar.gz"
+
+cp -R ../lbpe-score/data data
+
+cp README.md data/README.md
+cp LICENSE data/LICENSE
 
 tar -czvf data.tar.gz data/
 
